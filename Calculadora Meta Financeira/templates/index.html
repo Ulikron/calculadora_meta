@@ -1,0 +1,24 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Meta Financeira</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Calculadora Meta Financeira</h2>
+        <form method="POST" action="/result">
+            <label for="meta">Objetivo financeiro:</label>
+            <input type="number" id="meta" name="meta" required step="0.01">
+            <label for="economia_mensal">Economia mensal:</label>
+            <input type="number" id="economia_mensal" name="economia_mensal" required step="0.01">
+            <button type="submit">Calcular</button>
+        </form>
+    </div>
+   
+    
+</body>
+</html>
